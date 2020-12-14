@@ -1,5 +1,3 @@
-## THIS DOESNT WORK YET
-
 ### Overview
 This will generate an rtic project for an stm32f103c8 microcontroller. Adjustments to the desired toolchain or microcontroller will require changes to the configuration.
 

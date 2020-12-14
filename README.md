@@ -6,7 +6,9 @@ For RTIC documentation, Go to the [book](https://rtic.rs/0.5/book/en/) and the [
 ### Requirements:
 
 Download the correct target via `rustup  ` (follow this guide if you dont have rustup: https://doc.rust-lang.org/book/ch01-01-installation.html )
-Do this by running `rustup target add https://doc.rust-lang.org/book/ch01-01-installation.html` 
+Do this by running `rustup target add thumbv7m-none-eabi`
+
+Install [`cargo-flash`](https://github.com/probe-rs/cargo-flash), [`cargo-embed`](https://github.com/probe-rs/cargo-embed), and [`cargo-generate`](https://github.com/ashleygwilliams/cargo-generate).
 
 `Cargo` will handle the rest (you might have to install the rust `nightly` toolchain. Just look up how to do that)
 

@@ -5,7 +5,7 @@ This will generate an rtic project for an stm32f103c8 microcontroller. Adjustmen
 
 ### Requirements:
 
-Download the correct target via `rustup``  ` (follow this guide if you dont have rustup: https://doc.rust-lang.org/book/ch01-01-installation.html )
+Download the correct target via `rustup  ` (follow this guide if you dont have rustup: https://doc.rust-lang.org/book/ch01-01-installation.html )
 Do this by running `rustup target add https://doc.rust-lang.org/book/ch01-01-installation.html` 
 
 `Cargo` will handle the rest (you might have to install the rust `nightly` toolchain. Just look up how to do that)

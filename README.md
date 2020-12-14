@@ -16,7 +16,5 @@ Install [`cargo-flash`](https://github.com/probe-rs/cargo-flash), [`cargo-embed`
 Run the following command to generate a project:
 `cargo generate --git https://github.com/BBScholar/STM32F103-RTIC-template.git --name my-project`
 
-(You'll need to install [cargo-generate](https://github.com/ashleygwilliams/cargo-generate) first)
-
 ### How to deploy
 Run `cargo embed --release` to deploy the binary to the microcontroller

@@ -14,7 +14,7 @@ use cortex_m::peripheral::DWT;
 use rtic::app;
 use rtic::cyccnt::{Instant, U32Ext as _};
 
-use stm32f1xx_hal::{gpio, can::Can};
+use stm32f1xx_hal::gpio;
 use stm32f1xx_hal::pac;
 
 use core::convert::{Into};
@@ -53,8 +53,8 @@ const APP: () = {
         peripherals.DCB.enable_trace();
         DWT::unlock();
         peripherals.DWT.enable_cycle_counter();
-
-        let now = cx.start;
+    
+        // let now = cx.start;
     }
 
     #[idle()]
